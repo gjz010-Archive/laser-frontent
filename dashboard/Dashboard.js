@@ -20,6 +20,7 @@ import NotificationsIcon from '@material-ui/icons/Notifications';
 import { mainListItems, secondaryListItems } from './listItems';
 import {connect} from "../store"
 import MainScreen from "./MainScreen"
+import ApiEdit from "./ApiEdit"
 function MadeWithLove() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
@@ -170,6 +171,8 @@ function Dashboard(props) {
             switch(props.store.currentPanel){
               case "dashboard":
                 return <MainScreen/>
+              case "apiList":
+                return <ApiEdit/>
               default:
                 return <div/>
             }
