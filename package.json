@@ -12,7 +12,9 @@
     "react-dom": "16.8.6",
     "react-router-dom": "^5.0.0",
     "recharts": "1.6.2",
-    "semantic-ui-react": "0.87.1"
+    "redux-promise": "^0.6.0",
+    "semantic-ui-react": "0.87.1",
+    "swagger-client": "^3.8.25"
   },
   "scripts": {
     "start": "react-scripts start",

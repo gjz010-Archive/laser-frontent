@@ -5,9 +5,11 @@ import Hello from './Hello';
 import './style.css';
 import Button from '@material-ui/core/Button';
 import Dashboard from './dashboard/Dashboard';
+import Api from "./api"
 class App extends Component {
   constructor() {
     super();
+    Api.then(console.log);
     this.state = {
       name: 'React'
     };
